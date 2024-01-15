@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #e3d5ca;
+  gap: 32px;
+  padding: 32px;
+  border-radius: 0 0 10px 10px;
+}
+
+main .perfil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+main h1 {
+  font-size: 35px;
+}
+
+main img {
+  width: 260px;
+  border-radius: 5px;
+}
+
+main .botao-contato {
+  text-decoration: none;
+  background-color: #582f0e;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+.areas {
+  background-color: #efaf7f;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 70px;
+  padding: 20px 0 0 0;
+  border: 1px solid black;
+}
+
+.areas .area-1 {
+  font-family: cursive;
+  font-weight: 400;
+  color: #000000;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 0 15px;
+}
+
+.areas .area-2 {
+  font-family: cursive;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  padding: 0 15px;
+}
+
+.areas .area-3 {
+  font-family: cursive;
+  color: #000000;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 15px 15px;
+}
+
+.areas .area-4 {
+  font-family: cursive;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  padding: 15px 15px;
+}
+
+.area-5 {
+  font-family: cursive;
+  color: #000000;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 18px 15px;
+}
+
+.area-6 {
+  font-family: cursive;
+  color: #000000;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 20px 18px;
+}
+
+.botao-central {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 12px;
+}
+
+.botao-central .botao-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: #582f0e;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+.sobre-mim {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  font-size: 25px;
+  color: #532703;
+  margin-top: 19px;
+  margin-bottom: 10px;
+}
+
+#p-1 {
+  font-size: 18px;
+  font-weight: 800;
+  color: rgb(33, 32, 32);
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  font-size: 19px;
+  font-weight: 800;
+  color: rgb(33, 32, 32);
+  
+}
+
+.area-atuacao {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: #532703;
+  margin-top: 15px;
+}
+
+.atuacao {
+  background-color: #edede9;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 70px;
+  padding: 20px 0 0 0;
+}
+
+.atuacao .atuacao-1 {
+  font-family: cursive;
+  color: #000000;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.atuacao .atuacao-2 {
+  font-family: cursive;
+  color: #000000;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.atuacao .atuacao-3 {
+  font-family: cursive;
+  color: #000000;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 12px 0 0 0;
+}
+
+.atuacao .atuacao-4 {
+  font-family: cursive;
+  color: #000000;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-bottom: 15px;
+}
+
+footer {
+  font-family: cursive;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.rodape p {
+  border: 2px solid rgb(141, 139, 139);
+  border-radius: 20px;
+  font-size: 20px;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.img-3 {
+  position: relative;
+}
+
+.img-3 img {
+  width: 390px;
+}
+
+#texto-1 {
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  bottom: 300px;
+  left: 130px;
+  display: flex;
+}
+
+#texto-2 {
+  position: absolute;
+  color: white;
+  font-size: 18px;
+  bottom: 80px;
+  left: 30px;
+}
+
+#texto-3 {
+  position: absolute;
+  color: white;
+  font-size: 18px;
+  bottom: 40px;
+  left: 35px;
+}
