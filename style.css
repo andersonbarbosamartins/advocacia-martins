@@ -11,7 +11,7 @@ main {
   background-color: #e3d5ca;
   gap: 32px;
   padding: 32px;
-  border-radius: 0 0 10px 10px;
+  border-radius: 5px;
 }
 
 main .perfil {
@@ -28,7 +28,7 @@ main h1 {
 
 main img {
   width: 260px;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 main .botao-contato {
@@ -40,12 +40,12 @@ main .botao-contato {
 }
 
 .areas {
-  background-color: #efaf7f;
+  background-color: #e3d5ca;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: 70px;
   padding: 20px 0 0 0;
-  border: 1px solid black;
+ 
 }
 
 .areas .area-1 {
@@ -204,7 +204,7 @@ p {
 }
 
 footer {
-  font-family: cursive;
+  font-family: sans-serif;
   font-weight: 600;
   display: flex;
   justify-content: center;
@@ -223,36 +223,35 @@ footer {
   margin-top: 15px;
 }
 
-.img-3 {
-  position: relative;
-}
-
-.img-3 img {
-  width: 390px;
-}
-
 #texto-1 {
-  position: absolute;
-  color: white;
-  font-size: 30px;
-  bottom: 300px;
-  left: 130px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 20px;
+  margin-bottom: 10px;
+
 }
+
 
 #texto-2 {
-  position: absolute;
-  color: white;
-  font-size: 18px;
-  bottom: 80px;
-  left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black; 
+  font-size: 15px;
+  margin-bottom: 10px;
+
+  
 }
 
 #texto-3 {
-  position: absolute;
-  color: white;
-  font-size: 18px;
-  bottom: 40px;
-  left: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 15px;
+  margin-bottom: 10px;
+
 }
 
